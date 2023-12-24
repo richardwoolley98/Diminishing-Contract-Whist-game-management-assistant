@@ -1,4 +1,4 @@
-#Diminishing Contract Whist is a card game whose rules can be read here: https://www.fgbradleys.com/rules/rules4/Contract%20Whist%20-%20rules.pdf.
+#Diminishing Contract Whist is a card game whose rules can be read here: https://boardgamegeek.com/thread/850446/contract-whist.
 #Due to taking place over several rounds, the bets and running scores need to be written down to be kept track of.
 #This python code automates this tracking system, as well as randomly selecting a trump card for each round of play.
 #The code works for any number of players or rounds, but bear in mind that a deck of cards only has 52 cards, so a group of 6 players cannot play 10 rounds as they'd require 60 cards for the first round.

@@ -87,6 +87,7 @@ def play(r=input("How many rounds do you want to play? ")): #user chooses the nu
             scores.append(scores.pop(0))
             rotatingplayers.append(rotatingplayers.pop(0))
             print(" ")
+            print("______________________________________________________________________________________")
         else:
             for i in range(0,lenplayers):
                 print(players[i] + " has a final score of " + str(scores[i]))

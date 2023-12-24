@@ -60,7 +60,7 @@ def play(r=input("How many rounds do you want to play? ")): #user chooses the nu
         count = 0
         exclude = 0
         while j < len(players) + players.index(guesser):
-            if count == lenplayers:
+            if count == lenplayers + 1:
                 guess = int(input("How many hands does " + players[j % len(players)] + " expect to win? Cannot say " + str(exclude) + ". "))
             else:
                 guess = int(input("How many hands does " + players[j % len(players)] + " expect to win? "))
